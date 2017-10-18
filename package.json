@@ -1,0 +1,19 @@
+{
+  "name": "miner-emulator",
+  "version": "0.1.1",
+  "description": "Simple mining emulator done because I am bored.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScuroGuardiano/miner-emulator.git"
+  },
+  "author": "Scuro Guardiano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ScuroGuardiano/miner-emulator/issues"
+  },
+  "homepage": "https://github.com/ScuroGuardiano/miner-emulator#readme"
+}
