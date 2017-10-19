@@ -1,3 +1,3 @@
-const ExampleRun = require('./build/index');
+const MinerEmulator = require('./build/index');
 
-ExampleRun.run();
+MinerEmulator.exampleRun();

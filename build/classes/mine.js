@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 class Mine {
-    constructor(ore, resourceAmount) {
-        this.ore = ore;
+    constructor(oreType, resourceAmount) {
+        this._oreType = oreType;
         this.resourceAmount = resourceAmount;
     }
     get oreType() {
-        return this.ore;
+        return this._oreType;
     }
     get remaining() {
         return this.resourceAmount;
