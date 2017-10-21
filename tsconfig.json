@@ -6,7 +6,11 @@
         "outDir": "build",
         "noImplicitAny": true,
         "noFallthroughCasesInSwitch": true,
-        "moduleResolution": "node"
+        "moduleResolution": "node",
+        "allowUnreachableCode": false,
+        "alwaysStrict": true,
+        "declaration": true,
+        "declarationDir": "build/types"
     },
     "compileOnSave": true,
     "include": [

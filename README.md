@@ -21,7 +21,7 @@ Wiem pisanie tego jest useless, bo nikt nie zajrzy tutaj dopóki nigdzie nie dam
 
 Najpierw potrzebujemy kilofa, zróbmy takiego, który będzie kopał 10 jednostek surowca co 3 sekundy.
 ```javascript
-    const MinerEmulator = require("./build/index");
+    const MinerEmulator = require("./build/emulator/index");
 
     let darkPick = new MinerEmulator.Pickaxe("Dark Pickaxe", new MinerEmulator.MiningSpeed(10, 3000)); // 10 units of ore per 3000ms
 ```
