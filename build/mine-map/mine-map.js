@@ -2,8 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 class MineMap {
     constructor(sizeX, sizeY) {
-        this.size.x = sizeX;
-        this.size.y = sizeY;
+        this.size = { x: sizeX, y: sizeY };
         Object.freeze(this.size);
         this.fields = [];
         for (let i = 0; i < this.size.x; i++) {

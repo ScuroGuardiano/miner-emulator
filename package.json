@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ScuroGuardiano/miner-emulator/issues"
   },
-  "homepage": "https://github.com/ScuroGuardiano/miner-emulator#readme"
+  "homepage": "https://github.com/ScuroGuardiano/miner-emulator#readme",
+  "devDependencies": {
+    "@types/node": "^8.0.46"
+  }
 }

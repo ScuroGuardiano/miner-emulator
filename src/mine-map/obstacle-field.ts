@@ -1,8 +1,8 @@
 import IField from './interfaces/field';
 
-export default class ObstructionField implements IField {
+export default class ObstacleField implements IField {
     constructor() {
-        this._fieldType = "obstruction-field";
+        this._fieldType = "obstacle-field";
     }
     private _fieldType: string;
 

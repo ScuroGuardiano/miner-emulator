@@ -2,8 +2,7 @@ import IField from './interfaces/field';
 
 export default class MineMap {
     constructor(sizeX : number, sizeY : number) {
-        this.size.x = sizeX;
-        this.size.y = sizeY;
+        this.size = { x: sizeX, y: sizeY };
         Object.freeze(this.size);
         this.fields = [];
         for(let i = 0; i < this.size.x; i++) {

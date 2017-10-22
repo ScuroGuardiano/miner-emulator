@@ -10,7 +10,10 @@
         "allowUnreachableCode": false,
         "alwaysStrict": true,
         "declaration": true,
-        "declarationDir": "build/types"
+        "declarationDir": "build/types",
+        "types": [
+            "node"
+        ]
     },
     "compileOnSave": true,
     "include": [
